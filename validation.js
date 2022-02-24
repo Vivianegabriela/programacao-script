@@ -11,5 +11,5 @@
 
                 form.classList.add('was-validated')
             }, false)
-        })
+        })    
 })()

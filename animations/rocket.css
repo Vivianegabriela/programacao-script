@@ -1,6 +1,6 @@
 body {
     overflow-y: hidden;
-    background: #446484;
+    background: #06070E;
 }
 
 
@@ -8,7 +8,7 @@ body {
     position: absolute;
     bottom: -600px;
     left: 35%;
-    animation: fly 10s .5s ease-in;
+    animation: fly 5.625s ease-in;
 }
 
 @keyframes fly {

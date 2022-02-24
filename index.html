@@ -33,43 +33,43 @@
                                 <div class="col-md-12">
                                     <input class="form-control" type="text" name="lastname" placeholder="Sobrenome."
                                         required>
-                                        <div class="valid-feedback">Sobrenome é inválido!</div>
-                                        <div class="invalid-feedback">Sobrenome não pode ficar vázio!</div>
+                                    <div class="valid-feedback">Sobrenome é inválido!</div>
+                                    <div class="invalid-feedback">Sobrenome não pode ficar vázio!</div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="text" name="mothername"
                                         placeholder="Nome Completo da Mãe." required>
-                                        <div class="valid-feedback">Nome da Mãe é inválido!</div>
-                                        <div class="invalid-feedback">Nome da Mãe não pode ficar vázio!</div>
+                                    <div class="valid-feedback">Nome da Mãe é inválido!</div>
+                                    <div class="invalid-feedback">Nome da Mãe não pode ficar vázio!</div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="text" name="dadname"
                                         placeholder="Nome Completo do Pai." required>
-                                        <div class="valid-feedback">Nome do Pai é inválido!</div>
-                                        <div class="invalid-feedback">Nome do Pai não pode ficar vázio!</div>
+                                    <div class="valid-feedback">Nome do Pai é inválido!</div>
+                                    <div class="invalid-feedback">Nome do Pai não pode ficar vázio!</div>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <input class="form-control js-date" maxlength="10"" type="text" name="datetime"
+                                    <input class="form-control js-date" maxlength="10"" type=" text" name="datetime"
                                         placeholder="Data de Nascimento." required>
-                                        <div class="valid-feedback">Data de Nascimento é inválida!</div>
-                                        <div class="invalid-feedback">Data de Nascimento não pode ficar vázia!</div>
+                                    <div class="valid-feedback">Data de Nascimento é inválida!</div>
+                                    <div class="invalid-feedback">Data de Nascimento não pode ficar vázia!</div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="email" name="email"
                                         placeholder="Endereço de E-mail." required>
-                                        <div class="valid-feedback">E-mail é inválido!</div>
-                                        <div class="invalid-feedback">E-mail não pode ficar vázio!</div>
+                                    <div class="valid-feedback">E-mail é inválido!</div>
+                                    <div class="invalid-feedback">E-mail não pode ficar vázio!</div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <input class="form-control" type="password" name="password" placeholder="Senha."
                                         required>
-                                        <div class="valid-feedback">Senha é inválido!</div>
-                                        <div class="invalid-feedback">Senha não pode ficar vázio!</div>
+                                    <div class="valid-feedback">Senha é inválido!</div>
+                                    <div class="invalid-feedback">Senha não pode ficar vázio!</div>
                                 </div>
 
                                 <div class="col-md-12">
@@ -110,8 +110,16 @@
                                     </div>
                                 </div>
 
+                                <div class="form-check" style="display: none;">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label">Concordo com os Termos e Condições.</label>
+                                    <div class="invalid-feedback">Por favor, concorde com os termos e condições.
+                                    </div>
+                                </div>
+
                                 <div class="form-button mt-3">
-                                    <button id="submit" type="submit" class="btn btn-primary" onclick="">Cadastrar</button>
+                                    <button id="submit" type="submit" class="btn btn-primary"
+                                        onclick="window.location.replace('animations/rocket.html')">Cadastrar</button>
                                 </div>
                             </form>
                         </div>
@@ -124,7 +132,7 @@
     <script src="validation.js"></script>
     <script src="mask/date-mask.js"></script>
     <script>
-        window.location.href("animations/rocket.html");
+
     </script>
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 2: Separate Popper and Bootstrap JS -->
