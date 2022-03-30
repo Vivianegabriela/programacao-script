@@ -24,6 +24,13 @@ nav {
 
 .btn-toCheck {
     background-color: #D9CE3F;
+    color: #ffffff;
+}
+
+.btn-toCheck:hover {
+    background-color: #ffffff;
+    border-color: #D9CE3F;
+    color: #000000;
 }
 
 .btn-outline-toCheck {
@@ -37,6 +44,17 @@ nav {
     color: #ffffff;
 }
 
+.btn-outline-gender {
+    color: #D9CE3F;
+    border-color: #D9CE3F;
+}
+
+.btn-outline-gender:hover {
+    color: #fff;
+    background-color: #D9CE3F;
+    border-color: #D9CE3F;
+  }
+
 .text-checkedStyle {
     --bs-text-opacity: 1;
   color: #D9CE3F !important;
@@ -48,7 +66,12 @@ nav {
 }
 
 .buttonStyled {
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
     font-size: 1.25rem;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
 }
+
+.form-check-input:checked {
+    background-color: #D9CE3F;
+    border-color: #D9CE3F;
+  }
