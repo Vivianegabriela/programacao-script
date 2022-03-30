@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Prototype - BootStrap Page</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="">Protótipo (Formulario E-commerce)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#testemunhos">Testemunhos de clientes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#registerForm">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-4">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-3">
+                        <h1 class="display-5 fw-bolder text-white mb-2">O melhor do seu negócio em um só lugar!</h1>
+                        <p class="lead text-white-50 mb-4">O melhor do e-commerce.</p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Testimonials section-->
+    <section class="py-5 border-bottom" id="testemunhos">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder">Testemunho de nossos clientes</h2>
+                <p class="lead mb-0">Gente que gosta de nosso E-commerce.</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-1">Obrigado por um produto tão bom. Adoramos o trabalho de vocês
+                                        e toda a equipe, e iremos recomendá-lo a outras pessoas!
+                                    </p>
+                                    <div class="small text-muted">- Mônica, Bairro do Limoeiro</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-1">Toda a equipe foi uma grande ajuda para compra de nossos produtos
+                                        por meio desse E-commerce.
+                                        Voltaremos a contratá-los em breve para trabalhos adicionais!
+                                    </p>
+                                    <div class="small text-muted">- Chico, Minas Gerais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register section-->
+    <section class="bg-light py-5" id="form-register">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i>
+                </div>
+                <h2 class="fw-bolder">Cadastre-Se</h2>
+                <p class="lead mb-0">Adoraremos ter você como parte de nós!</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <form id="registerForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" />
+                            <label for="name">Nome Completo.</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <!-- Last name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="lastname" type="text" placeholder="Enter your lastname..."
+                                data-sb-validations="required" />
+                            <label for="lastname">Sobrenome.</label>
+                            <div class="invalid-feedback" data-sb-feedback="lastname:required">A lastname is required.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                            data-sb-validations="required" />
+                            <label for="phone">Número de Celular.</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            </div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                data-sb-validations="required,email" />
+                            <label for="email">E-mail.</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- Password input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="password" type="password" placeholder="name@example.com"
+                                data-sb-validations="required,password" />
+                            <label for="password">Senha.</label>
+                            <div class="invalid-feedback" data-sb-feedback="password:required">An password is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="password:password">password is not valid.</div>
+                        </div>
+                        <!-- Submit success message-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Informações enviadas com sucesso!</div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Erro ao enviar informações!</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton"
+                                type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark" id="contact">
+        <div class="container px-5">
+            <p class="m-0 text-center text-white">Copyright &copy; <a href="mailto:tulio.brugin@fatec.sp.gov.br"
+                    style="color: #ffffff; text-decoration: none;">Site Comercial</a> (Protótipo)</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>

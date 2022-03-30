@@ -1,0 +1,54 @@
+header {
+    background-color: #890F0D;
+}
+
+footer {
+    background-color: #630606;
+}
+
+.bg-DarkRed {
+    background-color: #630606;
+}
+
+.bg-CoolRed {
+    background-color: #890F0D;
+}
+
+.bg-CoolDarkedOrange {
+    background-color: #E83A14;
+}
+
+nav {
+    background-color: #630606;
+}
+
+.btn-toCheck {
+    background-color: #D9CE3F;
+}
+
+.btn-outline-toCheck {
+    border-color: #D9CE3F;
+    color: #000000;
+}
+
+.btn-outline-toCheck:hover {
+    background-color: #D9CE3F;
+    border-color: #D9CE3F;
+    color: #ffffff;
+}
+
+.text-checkedStyle {
+    --bs-text-opacity: 1;
+  color: #D9CE3F !important;
+}
+
+.bg-toStyledBox {
+    --bs-bg-opacity: 1;
+  background-color: #D9CE3F !important;
+}
+
+.buttonStyled {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
