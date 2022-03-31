@@ -33,4 +33,3 @@ function menuNoticiasEsporteFutebolControllers(req, res) {
     })
 
 }
-   

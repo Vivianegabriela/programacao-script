@@ -5,4 +5,3 @@ app.get('/classificados/classificadosMenu', controllerClassificados.menuClassifi
 app.get('/classificados/AutomoveisMenu', controllerClassificados.menuAutomoveisControllers)
 
 app.get('/classificados/VolkswagenMenu', controllerClassificados.menuVolkswagenControllers)
-
